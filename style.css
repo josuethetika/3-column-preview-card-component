@@ -12,5 +12,38 @@ body{
 }
 
 .main-card{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55rem;
+    padding: 30px 0 0 40px;
+   
+}
+.first-card{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px 50px 0 40px;
+    height: 430px;
+    border-radius:10px 0 0 10px ;
+}
+.second-card{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 40px 30px 0 40px;
+    height: 430px;
+}
+.third-card{
+    background-color:hsl(179, 100%, 13%);
+    padding: 40px 30px 0 40px;
+    height: 430px;
+    border-radius: 0 10px 10px 0;
+}
+h1{
+    margin:30px 0 0 0;
+}
+p{
+    margin:30px 0 0 0 ;
+    line-height: 16px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+    margin-top: 80px;
 }
