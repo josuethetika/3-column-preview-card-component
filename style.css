@@ -22,30 +22,95 @@ body{
 .first-card{
     background-color: hsl(31, 77%, 52%);
     padding: 40px 50px 0 40px;
-    height: 430px;
+    height: 460px;
     border-radius:10px 0 0 10px ;
 }
 .second-card{
     background-color:  hsl(184, 100%, 22%);
-    padding: 40px 30px 0 40px;
-    height: 430px;
+    padding: 40px 60px 0 40px;
+    height: 460px;
 }
 .third-card{
     background-color:hsl(179, 100%, 13%);
-    padding: 40px 30px 0 40px;
-    height: 430px;
+    padding: 40px 55px 0 40px;
+    height: 460px;
     border-radius: 0 10px 10px 0;
 }
 h1{
     margin:30px 0 0 0;
     color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.33rem;
 }
 p{
     margin:30px 0 0 0 ;
-    line-height: 16px;
+    line-height: 26px;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    opacity:0.9 ;
 }
 button{
-    margin-top: 90px;
+    margin-top: 80px;
     height: 20%;
+}
+button:hover{
+    background-color: transparent;
+    border: white;
+    color: white;
+}
+
+.button-1 button{
+    width: 130px;
+    height: 45px;
+    color: hsl(31, 77%, 52%);
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    
+}
+.button-1 button:hover{
+    background-color: transparent;
+    border:;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.button-2 button{
+    width: 130px;
+    height: 45px;
+    color:hsl(184, 100%, 22%) ;
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    border-radius:20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.button-2 button:hover{
+    background-color: transparent;
+    border:;
+    color: white;
+    cursor: pointer;
+}
+
+.button-3 button{
+    width: 130px;
+    height: 45px;
+    color:hsl(179, 100%, 13%) ;
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    border-radius:20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.button-3 button:hover{
+    background-color: transparent;
+    border:;
+    color: white;
+    cursor: pointer;
 }
